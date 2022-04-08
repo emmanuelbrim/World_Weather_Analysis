@@ -35,7 +35,7 @@ Using info_box_template and list comprehension a marker layer map was produced t
 
 _Example of google maps with markers for current weather condition_
 
-![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/Total%20Votes%20per%20county.PNG)
+![Alt text](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
 
 
 
