@@ -22,7 +22,9 @@ The list of possible cities was generated from the cordinates after the citipy m
 In order to get the weather condition of these cities required using API calls to OpenWeatherMap to obtain current weather. 
 A DataFrame was then created to hold the infomation retrieved from the call.
 
+_Below is an example of the  DataFrame that was generated_
 
+![city_data](https://user-images.githubusercontent.com/100079292/162348096-156e6293-0a26-4aba-881b-7415256917a1.PNG)
 
 * **Total Votes and Percentage of Votes per County**
 
