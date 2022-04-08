@@ -3,9 +3,11 @@ _An Analysis of Weather Data Using API calls_
 
 
 ## Overview of the Project
-The project was undertaken to improve a travel app by using input statements and API calls to help clients create a travel itinerary based on their weather preference.
-The key goals for the project included:
 
+A good travel experience is always affected by the climate or weather condition of the destination. As most travellers decide on their trips, weather patterns become an important factor and information on this key element of travel sorted after the more.
+This project was undertaken to improve a travel app by using input statements and API calls to help clients create a travel itinerary based on their weather preference.
+
+The key goals for the project included:
 - Produce travel destination based on customer's weather preference.
 - Generate a list nearby hotels from travel cities.
 - Create a travel itinerary 
@@ -15,11 +17,11 @@ The key goals for the project included:
 ## Results
 
 * **Weather Database**
+Using the numpy module with the random function, 2,000 cordinates were generated to help produce city destinations.
+The list of possible cities was generated from the cordinates after the citipy module was applied on the cordinates.
+In order to get the weather condition of these cities required using API calls to OpenWeatherMap to obtain current weather. 
+A DataFrame was then created to hold the infomation retrieved from the call.
 
-
-_*Example of code used to generate the total_votes of the election*_
-
-![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/Total%20Votes.PNG)
 
 
 * **Total Votes and Percentage of Votes per County**
