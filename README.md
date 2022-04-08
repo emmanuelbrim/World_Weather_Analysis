@@ -26,16 +26,14 @@ _Below is an example of the  DataFrame that was generated_
 
 ![city_data](https://user-images.githubusercontent.com/100079292/162348096-156e6293-0a26-4aba-881b-7415256917a1.PNG)
 
-* **Total Votes and Percentage of Votes per County**
 
-One request from the Election Board was to generate the total number of votes cast in each county and the percentage of that to the overall votes cast in the election.
-To honor this, two data structures; "county_list" and "county_votes" dictionary were created to hold data. 
-A script to extract all county names was added under a For loop; "row in reader:" by assiging the second index to the variable "county_name".
-Next an if statement was introduced to help obtain the values for the county list and county votes.
-The final value for county_votes was based on increasing it by 1 after each loop.
+* **Vacation_Search**
+Prefered weather was collected from clients using input statements where clients could enter the maximum and minimum temperatures they desire.
+These values were then used to generate cordinates to produce list of prefered cities from the weather database file.
+Next an API call to google maps returned nearest hotels to possible city destinations.
+Using info_box_template and list comprehension a marker layer map was produced to show cureent weather conditions for possible hotel locations around the world.
 
-
-_Example of code used to generate total votes per county_
+_Example of google maps with markers for current weather condition_
 
 ![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/Total%20Votes%20per%20county.PNG)
 
